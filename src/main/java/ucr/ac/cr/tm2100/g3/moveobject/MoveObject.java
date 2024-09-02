@@ -4,6 +4,8 @@
 
 package ucr.ac.cr.tm2100.g3.moveobject;
 
+import ucr.ac.cr.tm2100.g3.moveobject.view.GUIFrame;
+
 /**
  *
  * @author Aarón Galagarza
@@ -11,6 +13,7 @@ package ucr.ac.cr.tm2100.g3.moveobject;
 public class MoveObject {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       // GUIFrame guiFrame=new GUIFrame(200, 200);
+        GUIFrame guiFrame2=new GUIFrame();
     }
 }
